@@ -1,4 +1,4 @@
-# smart-commit-bot
+# Commit-bot
 
 A Git `commit-msg` hook powered by AI to generate concise, high-quality commit messages from your staged diff.
 
@@ -20,12 +20,12 @@ A Git `commit-msg` hook powered by AI to generate concise, high-quality commit m
 1. **Clone the repo**
    ```bash
    git clone https://github.com/onoja123/commit-gen.git
-   cd smart-commit-bot
+   cd commit-gen
    ```
 
 2. **Build the binary**
    ```bash
-   go build -o smart-commit-msg ./cmd/smart-commit-msg
+   go build -o commit-msg ./cmd/commit-msg
    ```
 
 3. **Set your OpenAI API key**
